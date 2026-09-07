@@ -4,7 +4,7 @@
 
 ## 公開URL
 
-https://ユーザー名.github.io/my-links/
+https://github.com/ohya1359-debug/my-links
 
 ## 使用技術
 
