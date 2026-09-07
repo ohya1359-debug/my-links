@@ -18,7 +18,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 24px;
-    padding: 24px;
+    padding: 15vh 24px 24px;
     font-family: "Inter",sans-serif;
     font-size: 14px;
     color: hsl(0, 0%, 100%);
