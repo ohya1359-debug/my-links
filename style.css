@@ -9,16 +9,17 @@
     padding: 0;
 }
 
+html {
+    background-color: hsl(0, 0%, 8%);
+}
+
 body {
     background-color: hsl(0, 0%, 8%);
-    min-height: 100vh;
-    min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
     gap: 24px;
-    padding: 15vh 24px 24px;
+    padding: 100px 24px 24px;
     font-family: "Inter",sans-serif;
     font-size: 14px;
     color: hsl(0, 0%, 100%);
