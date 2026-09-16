@@ -63,6 +63,38 @@ body {
     margin-bottom:24px;
 }
 
+.card__featured {
+    background: hsl(250, 56%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 100px;
+    border-radius: 12px;
+    text-decoration: none;
+    gap: 6px;
+    border: 1px solid hsl(73, 96%, 49%);
+    margin-bottom: 16px;
+    transition: opacity 0.2, transform 0.2;
+}
+
+.card__featured:hover,
+.card__featured:focus-visible {
+   opacity: 0.9;
+   transform: translateY(-2px);
+}
+
+.icon__image {
+    width: 20px;
+    height: 20px;
+}
+
+.text__bold {
+    font-weight: 700;
+    color: hsl(73, 96%, 49%);
+}
+
 .card__social-links {
     list-style: none;
     width: 100%;
